@@ -1,117 +1,98 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    background-color: #f0f0f0; /* Define a cor de fundo */
+    margin: 0; /* Remove as margens ao redor da página */
+    padding: 0; /* Remove o preenchimento interno do corpo */
 }
 
 /* Estilos para o cabeçalho */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    display: flex; /* Aplica o modelo de layout flexível */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto */
+    padding: 10px 20px; /* Define o preenchimento interno */
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 24px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte */
 }
 
 .search-bar input {
-    width: 300px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+    width: 300px; /* Define a largura do input de busca */
+    padding: 5px; /* Define o preenchimento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
 }
 
 .user-links a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-/* Estilos para as seções */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.vertical-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-section {
-    background-color: white;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-}
-
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    color: white; /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    margin-left: 20px; /* Define a margem à esquerda */
 }
 
 /* Estilos para o rodapé */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Define o preenchimento interno */
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto */
+     margin-top: 3000px; /* Empurra o rodapé para a parte inferior */
 }
+
 /* Estilos para a seção de Calendário */
 .calendar {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Centralizar horizontalmente */
-    max-width: 800px; /* Limitar a largura */
+    background-color: #f9f9f9; /* Define a cor de fundo da seção */
+    padding: 20px; /* Define o preenchimento interno */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra à seção */
+    margin: 80px 50px 30px ; /* Centraliza horizontalmente */
+    max-width: 300px; /* Limita a largura máxima da seção */
+    height: 250px; /* Altura da seção de calendário */
 }
 
 /* Estilos para a seção de Campeonatos */
 .leagues {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Centralizar horizontalmente */
-    max-width: 800px; /* Limitar a largura */
+    background-color: #f9f9f9; /* Define a cor de fundo da seção */
+    padding: 20px; /* Define o preenchimento interno */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra à seção */
+    margin: 8px 50px 30px ; /* Centraliza horizontalmente */
+    max-width: 300px; /* Limita a largura máxima da seção */
+    height: 2500px; /* Altura da seção de calendário */
 }
 
 /* Estilos para a seção de Partidas */
 .matches {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Centralizar horizontalmente */
-    max-width: 800px; /* Limitar a largura */
+    background-color: #f9f9f9; /* Define a cor de fundo da seção */
+    padding: 20px; /* Define o preenchimento interno */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra à seção */
+    margin: -2890px auto; /* Centraliza horizontalmente */
+    max-width: 670px; /* Limita a largura máxima da seção */
+    height: 2820px; /* Altura da seção de calendário */
 }
 
 /* Estilos para a seção de Jogos em Destaque */
 .highlights {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Centralizar horizontalmente */
-    max-width: 800px; /* Limitar a largura */
+    background-color: #f9f9f9; /* Define a cor de fundo da seção */
+    padding: 50px 70px; /* Define o preenchimento interno */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra à seção */
+    float: left; /* Posiciona à esquerda */
+    margin-top: 30px; /* Espaçamento superior */
+    margin-left: 1130px; /* Espaçamento à esquerda */
+
 }
+
 
 /* Estilos para a seção de Tabela de Campeonatos */
 .table {
-    background-color: #f9f9f9;
-    padding: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Centralizar horizontalmente */
-    max-width: 800px; /* Limitar a largura */
+   background-color: #f9f9f9; /* Define a cor de fundo da seção */
+   padding: 20px 46px; /* Define o preenchimento interno */
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra à seção */
+   float: left; /* Posiciona à esquerda */
+   max-width: 300px; /* Limita a largura máxima da seção */
+   height: 1000px; /* Altura da seção de jogos em destaque */
+   margin-top: 30px; /* Espaçamento superior */
+   margin-left: 1130px; /* Espaçamento à esquerda */
 }
